@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(90deg, #ff97fa, #636ee7);
+}
+
+input {
+  background-color: white;
+  border-style: none;
+}
+
+.search-container {
+  margin: 10% auto auto auto;
+  width: 10%;
+  padding: 0;
+  background-color: whitesmoke;
+  border-radius: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+li {
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+}
+
+ul li:hover {
+  background: #636ee7;
+}
+
+input {
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: 1px lightblue solid;
+}
